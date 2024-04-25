@@ -1,10 +1,15 @@
 import React from "react";
-import { Forms } from "./Forms";
+import { Todolist } from "./Todolist";
+
+
+// import { Forms } from "./Forms";       <Forms />
 
 
 const Home = () => {
 	return (
-		<Forms />
+		<>
+		   <Todolist />
+		</>
 	);
 };
 
